@@ -1,0 +1,2 @@
+class Pouch < ApplicationRecord
+end

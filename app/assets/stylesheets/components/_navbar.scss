@@ -1,12 +1,65 @@
-.navbar-lewagon {
+
+// TODO
+// 1. Fix the left and right border lines so they go all the way up
+// 2. Update the font
+// 3. Space the navbar menu items evenly in the space
+
+.navbar {
+  // display: flex;
   justify-content: space-between;
-  background: white;
+  align-items: center;
+  background-color: #F4EDED;
+  overflow: hidden;
+  border-bottom: 2px solid black;
+  height: 80px;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-items {
+  // display: flex;
+  justify-content: space-between;
+  padding: 14px 20px;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #00C560;
+  color: #black;
+}
+
+.navbar .icons {
+  // display: flex;
+  float: right;
+  border-left: 2px solid black;
+  height: 100%;
+}
+
+.navbar .icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.navbar .icons a:hover {
+  background-color: transparent;
+}
+
+.navbar .logo {
+  border-right: 2px solid black;
+  height: 100%;
+}
+
+.navbar .logo a:hover {
+  background-color: transparent;
+}
+
+.navbar .logo img {
+  width: 24px;
+  height: 24px;
 }

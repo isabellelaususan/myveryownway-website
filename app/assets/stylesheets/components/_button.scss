@@ -1,15 +1,78 @@
 .button {
   display: flex;
   height: 50px;
-  width: 147px;
+  width: 20%;
   padding: 18px 69px;
-  justify-content: center;
   align-items: center;
   flex-shrink: 0;
   border-radius: 25px;
   text-decoration: none;
+  justify-content: center;
   margin: 5px 10px;
   border: none;
-  font-family: 'Montserrat';
-  font-size: 14px;
+  font-family: 'Montserrat alternates';
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  overflow: visible;
+  line-height: 20px;
+  box-shadow: 5px 10px;
+}
+
+.button-green {
+  background: $fun-green;
+  color: white;
+  //box-shadow: none;
+
+  &:hover {
+    background: #F4EDED;
+    color: $fun-green;
+    border: solid;
+    border-color: $fun-green;
+    box-shadow: none;
+  }
+
+  input {
+    color: white;
+  }
+}
+
+.button-orange {
+  background: $orange;
+  color: white;
+
+  &:hover {
+    background: #F4EDED;
+    color: $orange;
+    border: solid;
+    border-color: $orange;
+    box-shadow: none;
+  }
+
+  input {
+    color: white;
+  }
+}
+
+.button-blue {
+  background: $cerulean;
+  color: white;
+
+  &:hover {
+    background: #F4EDED;
+    color: $cerulean;
+    border: solid;
+    border-color: $cerulean;
+  }
+
+  input {
+    color: white;
+  }
+}
+
+.full-width-button {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
 }

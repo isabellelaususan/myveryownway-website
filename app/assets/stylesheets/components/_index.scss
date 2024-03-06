@@ -4,6 +4,7 @@
 @import "form_legend_clear";
 @import "navbar";
 @import "button";
+@import "footer";
 
 // desktop only visibility
 @media screen and (min-width: 431px) {
@@ -23,4 +24,14 @@
   .desktop-only {
     display: none;
   }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 70px; /* Margin bottom by footer height */
+  background-color: #F4EDED;
 }

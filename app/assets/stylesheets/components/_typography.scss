@@ -1,12 +1,12 @@
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6, p {
   font-family: 'Montserrat alternates';
-  font-size: 110px;
-  text-transform: uppercase;
 }
 
 h1 {
   font-weight: 600;
   font-style: normal;
+  font-size: 131.04px;
+  text-transform: uppercase;
 }
 
 
@@ -21,16 +21,4 @@ h3 {
   font-style: normal;
 }
 
-h4 {
-  font-family: 'Montserrat alternates';
-  font-size: 30px;
-  font-weight: 700;
-  font-style: italic;
-}
-
-p {
-  font-family: 'Montserrat alternates';
-  font-size: 30px;
-  font-weight: 600;
-  font-style: normal;
 }

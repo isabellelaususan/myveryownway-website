@@ -1,36 +1,78 @@
-.footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 300px;
-  line-height: 10px;
-  padding: 30px 10px 40px 10px;
-  background-color: #F4EDED;
+.footer-content {
+  display: flex;
   justify-content: space-between;
-  align-items: center;
-  overflow: visible;
-  position: fixed;
-  border-bottom: 4px solid black;
 }
 
-.icon-container-left {
+.footer-section {
+  width: 50%;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
+  position: relative;
+  height: 240px;
+  border: solid 1px #151414;
+
+  .footer-icon {
+    position: absolute;
+  }
+
+  .heart {
+    height: 70px;
+    top: 5%;
+    right: 20%;
+  }
+
+  .zigzag {
+    height: 90px;
+    top: 50%;
+    left: -2px;
+  }
+
+  .semicircle {
+    height: 70px;
+    top: 0;
+    left: 50%;
+  }
+
+  .flower {
+    height: 70px;
+    top: 50%;
+    left: 5%;
+  }
 }
 
-.icon-container-right {
+.footer-section--right {
+  justify-content: end;
+  align-items: end;
+
+  a {
+    text-decoration: none;
+    color: #151414;
+  }
+}
+
+.footer-margin {
+  content: "";
+  height: 30px;
+  width: 100%;
+  background-color: #151414;
+}
+
+.social-media {
   display: flex;
-  justify-content: right;
-  align-items: center;
+  justify-content: space-between;
+  margin-right: 70px;
 }
 
-.contact p {
-  margin: 5px 0;
+.social-icon {
+  height: 24px;
+  margin-right: 10px;
 }
 
-/* Example styling for social media icons */
-.social-media a {
-  margin: 0 5px;
+.social-media-group {
+  margin: 10px 20px;
+
+  p {
+    margin-top: 12px;
+  }
 }
